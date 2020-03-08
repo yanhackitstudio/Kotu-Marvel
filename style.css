@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha|Philosopher');		
+
+body{
+	font-family: 'Philosopher', sans-serif;						
+}
+
+*{
+	margin: 0px;												
+	padding: 0px;												
+}
+
+nav ul{
+	display:flex;
+	background-color: black;
+	color: white;
+	list-style-type:none;
+}
+nav li{
+	padding:15px 20px;
+	width:70px;
+	text-align: center;
+	position: relative;
+}
+.nav_hero_logo{
+	position:absolute;
+	bottom: 0px;
+	left: 20px;
+	opacity:0;
+	transition: transform 0.5s linear, opacity 0.5s linear;
+}
+.main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(images/marvel_back.jpg);
+}		
+h1{
+	color:white;
+	font-size: 70pt;
+	text-shadow: 2px 2px #f54947;
+}
+.CapitanA_img{
+	background-color: #3a151c;
+	position:sticky;
+	top:0px;
+}
+.IronM_img{
+	padding-left:250px;
+	position:sticky;
+	top:0px;
+}
+.Hulk_img{
+	padding-left:500px;
+	position:sticky;
+	top:0px;
+}
+.Tor_img{
+	padding-left:750px;
+	position:sticky;
+	top:0px;
+}	
+.Natali_img{
+	padding-left:1000px;
+	position:sticky;
+	top:0px;
+}
+.C p{
+	width:900px;
+	font-size:20pt;
+	padding:50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.C{
+	background-image: url(images/marvel_back.jpg);
+}
+.capitanA_p{
+	color: #FF00FF;
+}
+.IronM_p{
+	color: #FFFF00;
+}
+.Hulk_p{
+	color: #00FF00;
+}
+.Tor_p{
+	color: #F0F0F0;
+}
+.Natali_p{
+	color: #00FFFF;
+}
+.hero{
+	background-color:#A5181C;
+	text-align: center;
+}
+
+.up{
+	position: fixed;
+	bottom:20px;
+	right:0px;
+}
+
+nav li:hover .nav_hero_logo{
+	opacity:1;
+	bottom: -60px;
+	transform:rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
